@@ -1,1 +1,6 @@
-.nvm
+.nvm/
+.config/
+.c9/
+.bash_history
+.bash_profile
+.DS_Store

@@ -9,6 +9,8 @@ services:
     ports:
       - "22"
       - "3090"
+    depends_on:
+      - db
   db:
     image: postgres
     restart: always
