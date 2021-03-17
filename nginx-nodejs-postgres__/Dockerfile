@@ -8,6 +8,7 @@ RUN npm install
 COPY ./crud-node-postgres/ .
 
 RUN npm install -g bower
+RUN npm install --save dd-trace 
 COPY crud-node-postgres/bower*.json ./
 RUN bower install --allow-root
 
